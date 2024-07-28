@@ -1,6 +1,6 @@
 [project]
 name = "audiosnatch"
-version = "0.1.0"
+version = "0.1.2"
 description = "An Audiobook downloader for goldenaudiobooks and sharedaudiobooks."
 authors = [
     { name = "rozari0", email = "61970262+rozari0@users.noreply.github.com" }

@@ -41,5 +41,8 @@ def download_now(title, audios, basepath):
         if not path.exists(bookpath):
             mkdir(bookpath)
         down_obj = SmartDL(audio, bookpath)
-        down_obj.start()
+        if not path.exists(down_obj.get_dest()):
+            down_obj.start()
+        else:
+            print(f"\t{down_obj.get_dest()} already exists. Skipping this file.")
     print("Completed")

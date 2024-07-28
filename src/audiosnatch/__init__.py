@@ -1,5 +1,4 @@
 from os import getcwd
-from typing import Tuple
 
 import rich_click as click
 from rich import print
@@ -10,10 +9,14 @@ from audiosnatch import ipaudio
 
 @click.command()
 @click.option(
-    "--output", type=click.Path(), default=getcwd(), help="Output path. [Default '.']"
+    "--output",
+    "-O",
+    type=click.Path(),
+    default=getcwd(),
+    help="Output path. [Default '.']",
 )
 @click.argument("url", nargs=-1)
-def download(url: Tuple, output):
+def download(url, output):
     """Download AudioBook From goldenaudiobooks
 
     Usage: audiosnatch download <options> <url(s)>
