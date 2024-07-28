@@ -11,14 +11,14 @@ from requests import get
 from rich import print
 
 website_lists = [
-    "goldenaudiobooks", # 
-    "sharedaudiobooks",
-    "hdaudiobooks",
-    "findaudiobook",
-    "bagofaudio",
-    "bigaudiobooks",
-    "fulllengthaudiobooks",
-    "primeaudiobooks",
+    "goldenaudiobooks",  # https://goldenaudiobooks.club/
+    "sharedaudiobooks",  # https://sharedaudiobooks.net/
+    "hdaudiobooks",  # https://hdaudiobooks.ne
+    "findaudiobook",  # https://findaudiobook.club/
+    "bagofaudio",  # https://bagofaudio.com/
+    "bigaudiobooks",  # https://bigaudiobooks.club/
+    "fulllengthaudiobooks",  # https://fulllengthaudiobooks.net/
+    "primeaudiobooks",  # https://primeaudiobooks.club/
 ]
 
 
