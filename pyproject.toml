@@ -1,10 +1,11 @@
 [project]
 name = "audiosnatch"
-version = "0.1.2"
+version = "0.2.0"
 description = "An Audiobook downloader for goldenaudiobooks and sharedaudiobooks."
 authors = [
-    { name = "rozari0", email = "61970262+rozari0@users.noreply.github.com" }
+    { name = "rozari0", email = "rozario@duck.com" }
 ]
+
 dependencies = [
     "beautifulsoup4>=4.12.3",
     "lxml>=5.2.2",
@@ -15,6 +16,10 @@ dependencies = [
 ]
 readme = "README.md"
 requires-python = ">= 3.8"
+
+[project.urls]
+"Homepage" = "https://github.com/rozari0/AudioSnatch"
+"Bug Tracker" = "https://github.com/rozari0/AudioSnatch/issues"
 
 [project.scripts]
 "audiosnatch" = "audiosnatch:main"
